@@ -1,7 +1,7 @@
-(ns redshift-client.test.handler
+(ns clojurejsonapi.test.handler
   (:use clojure.test
         ring.mock.request  
-        redshift-client.handler))
+        clojurejsonapi.handler))
 
 (deftest test-app
   (testing "main route"
